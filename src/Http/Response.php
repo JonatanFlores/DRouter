@@ -94,7 +94,7 @@
         }
 
 
-        public function setJsonResponse(int $status, array $data)
+        public function setJsonResponse($status, array $data)
         {
             $this->setStatus($status);
             $this->setHeaders([
