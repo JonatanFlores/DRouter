@@ -94,6 +94,12 @@
         }
 
 
+        /**
+         * Retorna responsta em JSON
+         * 
+         * @param int $status
+         * @param array $data
+         */
         public function setJsonResponse($status, array $data)
         {
             $this->setStatus($status);
