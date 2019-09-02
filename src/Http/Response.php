@@ -81,6 +81,11 @@
         }
 
 
+        /**
+         * Seta o status http da requisição
+         * 
+         * @param int $key
+         */
         public function setStatus($key) {
             $status = self::$messages[$key];
             header("HTTP/1.1 ".$status);
