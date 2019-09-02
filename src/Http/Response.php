@@ -87,6 +87,11 @@
         }
 
 
+        /**
+         * Retorna headers no cabeçalho
+         * 
+         * @param array $headers
+         */
         public function setHeaders(array $headers){
             foreach ($headers as $key => $value) {
                 header("$key:$value");
