@@ -6,5 +6,5 @@ use DRouter\Http\Response;
 
 interface MiddlewareInterface
 {
-    public function handle($request, $response, Closure $next):Response;
+    public function handle($request, $response, Closure $next);
 }
