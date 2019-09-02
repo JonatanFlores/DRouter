@@ -76,6 +76,9 @@
             511 => '511 Network Authentication Required'
         ];
 
+        /**
+         * Construtor
+         */
         public function __construct(){
 
         }
